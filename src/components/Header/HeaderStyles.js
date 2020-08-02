@@ -8,5 +8,5 @@ export const HeaderTag = styled.header`
   width: 100%;
   max-width: 1340px;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: var(--safe-area-padding);
 `;

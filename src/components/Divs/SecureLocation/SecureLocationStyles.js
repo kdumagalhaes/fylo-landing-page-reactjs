@@ -5,7 +5,7 @@ export const SecureLocationDiv = styled.div`
   width: 100%;
   max-width: 1340px;
   height: auto;
-  padding: 0 20px;
+  padding: var(--safe-area-padding);
 
 
   @media (max-width: 375px) {

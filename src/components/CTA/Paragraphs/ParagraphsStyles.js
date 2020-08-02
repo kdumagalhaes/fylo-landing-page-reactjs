@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const ParagraphTag = styled.div`
 
 @media (max-width: 375px) {
-    color: ${({fontColor}) => fontColor};
+    color: ${({color}) => color};
     text-align: ${({textAlign}) => textAlign};
-    margin-top: 30px
+    margin-top: ${({marginTop}) => marginTop};
+    padding: ${({padding}) => padding}
 }
 `;

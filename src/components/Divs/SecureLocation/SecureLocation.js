@@ -9,7 +9,7 @@ const SecureLocation = () => {
   return (
     <SecureLocationDiv>
       <BigTitle text="All your files in one secure location, accessible anywhere." />
-      <Paragraph fontColor="var(--very-dark-blue)" textAlign="center">
+      <Paragraph fontColor="var(--very-dark-blue)" textAlign="center" marginTop="30px">
         <p>
           Fylo stores your most important files in one secure location. Access
           them wherever you need, share and collaborate with friends, family,
