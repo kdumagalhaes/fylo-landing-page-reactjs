@@ -1,14 +1,15 @@
 import React, { Fragment } from 'react';
 import { InputTag } from './InputStyle';
 
-const Input = ({ width, placeholder, shadow, backgroundColor }) => {
+const Input = ({ maxWidth, placeholder, shadow, backgroundColor, margin }) => {
   return (
     <Fragment>
       <InputTag
-        width={width}
+        maxWidth={maxWidth}
         placeholder={placeholder}
         shadow={shadow}
         backgroundColor={backgroundColor}
+        margin={margin}
       />
     </Fragment>
   );

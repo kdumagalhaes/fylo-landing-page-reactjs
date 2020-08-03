@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonTag = styled.button`
-  box-shadow: 0px 10px 14px -5px rgba(204, 204, 204, 1);
+  box-shadow: ${({shadow}) => shadow};
   font-size: ${({ fontSize }) => fontSize};
   background-color: var(--bright-blue);
   color: var(--light-grayish-blue);

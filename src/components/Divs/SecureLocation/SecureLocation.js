@@ -16,8 +16,8 @@ const SecureLocation = () => {
           and co-workers.
         </p>
       </Paragraph>
-      <Input width="100%" placeholder="Enter your email..." shadow="none" backgroundColor="transparent"/>
-      <Button text="Get Started" width="100%" fontSize="1.2rem"/>
+      <Input maxWidth="100%" placeholder="Enter your email..." shadow="none" backgroundColor="transparent" margin="30px 0 0 0"/>
+      <Button text="Get Started" width="100%" fontSize="1.2rem" shadow="0px 10px 14px -5px rgba(204, 204, 204, 1)"/>
     </SecureLocationDiv>
   );
 };

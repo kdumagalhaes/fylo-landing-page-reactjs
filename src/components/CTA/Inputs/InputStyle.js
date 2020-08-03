@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
-export const InputTag = styled.input.attrs(({ placeholder }) => ({
+export const InputTag = styled.input.attrs({
   type: 'text',
-  placeholder,
-}))`
+})`
   &::placeholder {
     opacity: 0.5;
   }
   @media (max-width: 375px) {
-    width: ${({ width }) => width};
+    width: 100%;
+    max-width: ${({ maxWidth }) => maxWidth};
     background-color: ${({ backgroundColor }) => backgroundColor};
     box-shadow: ${({ shadow }) => shadow};
     height: 50px;
-    margin-top: 30px;
+    margin: ${({margin}) => margin};
     padding-left: 15px;
     border-radius: 3px;
     border: 1px solid var(--very-dark-blue);
