@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 import socialFacebookCircular from '@iconify/icons-typcn/social-facebook-circular';
 import socialTwitterCircular from '@iconify/icons-typcn/social-twitter-circular';
 import socialInstagramCircular from '@iconify/icons-typcn/social-instagram-circular';
-
+import LogoWhiteSVG from '../../../assets/logo-white.svg'
 
 
 const Footer = () => {
@@ -14,7 +14,9 @@ const Footer = () => {
     <FooterTag>
       <ContentDiv>
       <div>
-      <Logo margin="0 0 20px 0"/>
+      <Logo margin="0 0 20px 0">
+      <a href="/#"><img src={LogoWhiteSVG} alt="fylo description SEO"/></a>
+        </Logo>
       <ContactInfo />
       </div>
       <LinkList1>
