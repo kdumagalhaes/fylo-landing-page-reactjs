@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const ButtonTag = styled.button`
-  box-shadow: ${({shadow}) => shadow};
+  width: ${({ width }) => width};
+  max-width: 200px;
+  box-shadow: ${({ shadow }) => shadow};
   font-size: ${({ fontSize }) => fontSize};
   background-color: var(--bright-blue);
   color: var(--light-grayish-blue);
@@ -16,6 +18,6 @@ export const ButtonTag = styled.button`
     box-shadow: none;
   }
   @media (max-width: 375px) {
-    width: ${({ width }) => width};
+    max-width: ${({responsiveWidth}) => responsiveWidth}
   }
 `;

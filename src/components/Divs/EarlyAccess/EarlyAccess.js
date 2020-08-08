@@ -28,8 +28,14 @@ const EarlyAccess = () => {
         placeholder="email@exemple.com"
         margin="30px 0 0 0"
         shadow="0 2px 20px rgba(0,0,0,0.10)"
+        responsiveWidth="250px"
       />
-      <Button text="Get Started For Free" width="250px" shadow="0 2px 10px rgba(0,0,0,0.15)"/>
+      <Button
+        text="Get Started For Free"
+        width="250px"
+        shadow="0 2px 10px rgba(0,0,0,0.15)"
+        responsiveWidth="300px"
+      />
     </EarlyAccessDiv>
   );
 };

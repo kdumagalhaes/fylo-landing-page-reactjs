@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import SecureLocation from './components/Divs/SecureLocation/SecureLocation';
 import StayProductive from './components/Divs/StayProductive/StayProductive';
 import EarlyAccess from './components/Divs/EarlyAccess/EarlyAccess'
+import Footer from './components/Divs/Footer/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <StayProductive/>
       <EarlyAccess/>
       <GlobalReset />
+      <Footer />
     </Fragment>
   );
 }

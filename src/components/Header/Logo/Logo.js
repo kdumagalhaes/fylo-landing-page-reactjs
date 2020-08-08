@@ -2,9 +2,9 @@ import React from 'react'
 import {LogoStyled} from './LogoStyles'
 import LogoSVG from '../../../assets/logo.svg'
 
-const Logo = () => {
+const Logo = ({margin}) => {
     return (
-        <LogoStyled>
+        <LogoStyled margin={margin}>
             <a href="/#"><img src={LogoSVG} alt="fylo description SEO"/></a>
         </LogoStyled>
     )
