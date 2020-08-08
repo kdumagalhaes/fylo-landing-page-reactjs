@@ -9,7 +9,7 @@ export const ButtonTag = styled.button`
   color: var(--light-grayish-blue);
   font-weight: 700;
   height: 50px;
-  margin-top: 15px;
+  margin: ${({margin}) => margin};
   border-radius: 5px;
   border: none;
   transition: box-shadow 0.3s;
