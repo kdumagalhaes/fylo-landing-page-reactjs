@@ -5,7 +5,7 @@ export const EarlyAccessDiv = styled.div`
   height: auto;
   background-color: var(--desaturated-blue);
   margin: 0 auto;
-  padding: 60px 0 60px 0;
+  padding: 80px 0 80px 0;
 `;
 
 export const ContentDiv = styled.div`

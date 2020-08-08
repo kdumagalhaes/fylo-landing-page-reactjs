@@ -1,5 +1,5 @@
 import React from 'react';
-import { SecureLocationDiv } from './SecureLocationStyles';
+import { SecureLocationDiv, ContentDiv } from './SecureLocationStyles';
 import BigTitle from '../../CTA/Titles/BigTitle/BigTitle';
 import Paragraph from '../../CTA/Paragraphs/Paragraph';
 import Input from '../../CTA/Inputs/Input';
@@ -8,11 +8,11 @@ import Button from '../../CTA/Buttons/Button';
 const SecureLocation = () => {
   return (
     <SecureLocationDiv>
-      <div>
-      <BigTitle text="All your files in one secure location, accessible anywhere." margin="120px 0 20px 0"/>
+      <ContentDiv>
+      <BigTitle text="All your files in one secure location, accessible anywhere." margin="0 0 20px 0"/>
       <Paragraph
         fontColor="var(--very-dark-blue)"
-        textAlign="center"
+        textAlign="left"
         marginTop="30px"
       >
         <p>
@@ -36,7 +36,7 @@ const SecureLocation = () => {
         shadow="0px 10px 14px -5px rgba(204, 204, 204, 1)"
         responsiveWidth="350px"
       />
-      </div>
+      </ContentDiv>
     </SecureLocationDiv>
   );
 };

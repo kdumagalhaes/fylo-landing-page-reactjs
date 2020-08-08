@@ -4,11 +4,11 @@ import Illustration1 from '../../../assets/illustration-1.svg';
 export const SecureLocationDiv = styled.div`
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 1340px;
-  margin: 0 auto;
-  height: 500px;
+  margin: 0 auto 120px;
+  height: 600px;
   padding: var(--safe-area-padding);
   background-image: url(${Illustration1});
   background-repeat: no-repeat;
@@ -24,3 +24,9 @@ export const SecureLocationDiv = styled.div`
     background-size: 330px;
   }
 `;
+
+export const ContentDiv = styled.div `
+width: 100%;
+height: auto;
+justify-self: center;
+`
