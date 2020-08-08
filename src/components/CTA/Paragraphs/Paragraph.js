@@ -1,9 +1,9 @@
 import React from 'react'
 import {ParagraphTag} from './ParagraphsStyles'
 
-const Paragraph = ({children, color, textAlign, marginTop, padding}) => {
+const Paragraph = ({children, color, textAlign, margin, padding, marginResponsive}) => {
     return (
-        <ParagraphTag color={color} textAlign={textAlign} marginTop={marginTop} padding={padding}>
+        <ParagraphTag color={color} textAlign={textAlign} margin={margin} marginResponsive={marginResponsive} padding={padding}>
             {children}
         </ParagraphTag>
     )

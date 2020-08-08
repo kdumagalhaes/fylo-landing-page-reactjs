@@ -9,7 +9,7 @@ const SecureLocation = () => {
   return (
     <SecureLocationDiv>
       <div>
-      <BigTitle text="All your files in one secure location, accessible anywhere." />
+      <BigTitle text="All your files in one secure location, accessible anywhere." margin="120px 0 20px 0"/>
       <Paragraph
         fontColor="var(--very-dark-blue)"
         textAlign="center"

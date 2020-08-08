@@ -8,14 +8,16 @@ export const InfoLinkTag = styled.a.attrs(({ url }) => ({
   color: var(--moderate-cyan);
   width: 170px;
   opacity: 1;
+  display: block;
   transition: opacity 0.3s;
+  text-align: left;
+  margin: ${({ margin }) => margin};
+
   &:hover {
     opacity: 0.75;
   }
 
   @media (max-width: 375px) {
     text-align: center;
-    display: block;
-    margin: ${({margin}) => margin};
   }
 `;

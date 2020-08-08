@@ -1,9 +1,9 @@
 import React from 'react' 
 import {BigTitleTag} from './BigTitleStyles'
 
-const BigTitle = ({text}) => {
+const BigTitle = ({text, padding, margin}) => {
     return (
-        <BigTitleTag>
+        <BigTitleTag padding={padding} margin={margin}>
             {text}
         </BigTitleTag>
     )
