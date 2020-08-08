@@ -11,5 +11,6 @@ export const ParagraphTag = styled.div`
   @media (max-width: 375px) {
     margin: ${({ marginResponsive }) => marginResponsive};
     padding: ${({ padding }) => padding};
+    text-align: ${({responsiveTextAlign}) => responsiveTextAlign};
   }
 `;

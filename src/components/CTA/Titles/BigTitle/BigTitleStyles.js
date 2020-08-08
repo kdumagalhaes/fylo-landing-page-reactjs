@@ -9,8 +9,8 @@ export const BigTitleTag = styled.h2`
   margin: ${({margin}) => margin};
 
 @media (max-width: 375px) {
+  padding: ${({responsivePadding}) => responsivePadding};
   text-align: center;
   font-size: 1.6rem;
-  padding: 280px;
 }
 `

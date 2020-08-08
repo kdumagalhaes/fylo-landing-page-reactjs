@@ -22,6 +22,10 @@ export const ContentDiv = styled.div`
     opacity: 1;
     transition: opacity 0.3s;
   }
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+  }
 `;
 
 export const LinkList1 = styled.ul`
@@ -34,6 +38,10 @@ export const LinkList1 = styled.ul`
       }
     }
   }
+
+  @media (max-width: 375px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const LinkList2 = styled.ul`
@@ -45,6 +53,10 @@ export const LinkList2 = styled.ul`
         opacity: 0.5;
       }
     }
+  }
+
+  @media (max-width: 375px) {
+    margin-bottom: 30px;
   }
 `;
 
@@ -62,5 +74,9 @@ export const SocialLinks = styled.ul`
         opacity: 0.5;
       }
     }
+  }
+
+  @media (max-width: 375px) {
+    margin: 0 auto;
   }
 `;

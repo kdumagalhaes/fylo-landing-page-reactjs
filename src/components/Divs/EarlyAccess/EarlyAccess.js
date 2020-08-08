@@ -14,11 +14,13 @@ const EarlyAccess = () => {
         text="Get early access today"
         color="var(--light-grayish-blue)"
         fontSize="1.7rem"
+        responsiveFontSize="1.3rem"
         margin="0 0 15px 0"
       />
       <Paragraph
         color="var(--light-grayish-blue)"
         textAlign="letf"
+        responsiveTextAlign="center"
         marginTop="20px"
         padding="var(--safe-area-padding)"
         maxWidth="500px"

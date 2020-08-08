@@ -9,11 +9,12 @@ const SecureLocation = () => {
   return (
     <SecureLocationDiv>
       <ContentDiv>
-      <BigTitle text="All your files in one secure location, accessible anywhere." margin="0 0 20px 0"/>
+      <BigTitle text="All your files in one secure location, accessible anywhere." margin="0 0 20px 0" responsivePadding="280px 0 0 0"/>
       <Paragraph
         fontColor="var(--very-dark-blue)"
         textAlign="left"
         marginTop="30px"
+        responsiveTextAlign="center"
       >
         <p>
           Fylo stores your most important files in one secure location. Access

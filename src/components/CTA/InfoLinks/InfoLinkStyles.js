@@ -18,6 +18,6 @@ export const InfoLinkTag = styled.a.attrs(({ url }) => ({
   }
 
   @media (max-width: 375px) {
-    text-align: center;
+    margin: 0 auto;
   }
 `;

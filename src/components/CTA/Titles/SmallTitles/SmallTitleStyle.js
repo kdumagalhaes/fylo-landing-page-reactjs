@@ -9,5 +9,6 @@ export const SmallTitleTag = styled.h3 `
     @media (max-width: 375px) {
         text-align: center;
         padding-top: ${({padding}) => padding};
+        font-size: ${({responsiveFontSize}) => responsiveFontSize}
     }
 `
