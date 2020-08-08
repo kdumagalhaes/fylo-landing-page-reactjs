@@ -16,6 +16,8 @@ const StayProductive = () => {
       <SmallTitle
         text="Stay productive, wherever you are"
         padding="300px"
+        margin="0 0 20px 0"
+        fontSize="2.3rem"
       />
       <Paragraph color="var(--desaturated-blue)" marginResponsive="30px 0 0 0">
         Never let location be an issue when accessing your files. Fylo has you
